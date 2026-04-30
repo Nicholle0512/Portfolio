@@ -512,11 +512,13 @@
     /* ============ ABOUT ============ */
     .about {
       display: grid;
-      grid-template-columns: 5fr 7fr;
+      grid-template-columns: minmax(220px, 420px) 1fr;
       gap: 3rem;
       align-items: start;
     }
     .portrait {
+      width: 100%;
+      max-width: 420px;
       aspect-ratio: 4 / 5;
       background:
         radial-gradient(circle at 30% 30%, var(--accent) 0%, var(--accent-deep) 45%, var(--ink) 100%);
@@ -890,7 +892,8 @@
         <h2 class="section-title">About <em>the work</em></h2>
         <span class="section-meta">Hi, I'm Nicholle</span>
       </div>
- 
+
+    <div class="about"> 
       <div class="portrait">
         <img class="portrait-img" src="images/IMG_6973.jpg"
             alt="Portrait of Nicholle Perkins"
