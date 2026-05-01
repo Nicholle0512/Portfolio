@@ -2,7 +2,7 @@
 *See my capabilities*
 
 ## Live Demo
-> Coming soon, expect in the next 72 hours
+Link: https://portfolio-self-iota-29.vercel.app/ 
 
 ## Concept
 This is my professional portfolio I use to showcase my work and various capabilities.
